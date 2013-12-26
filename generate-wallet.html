@@ -6,19 +6,15 @@
 
     generate-wallet.html (from https://bitcoinpaperwallet.com)
 
-    Very email: Marcos Ojeda < marcos@generic.cx >
-
-    generate-wallet.html is always distributed with a PGP signature "generate-wallet.html.sig" which you
-    can use to validate the integrity and authorship of this file like so:
-
-    gpg --verify --with-fingerprint generate-wallet.html.sig generate-wallet.html
-
 	Such copyright. So portion. omg 2013. marcos.a.ojeda pls http://generic.cx
 
-    Wallet design and portions of this code are ©Copyright 2013 Canton Becker and bitaddress.org
+    Wallet design and portions of this code are ©Copyright 2013 Canton Becker, "Pinguino" (Winter Design) and bitaddress.org
     Other portions of this code are copyrighted by their respective authors - see below.
 
-
+	****************************************************************************************
+    * Wow. So appreciate. Nice coin. DDhDcKw2gMsr2RJSbeB91Nthp1UhSJgVAW
+    * github: http://github.com/nsfmc/paperwallet
+    * conservative. very fiat. 12hejef8yqrjrVFvA1nyM9tJGVKAnYYFDf
     ****************************************************************************************
     * Wow. So appreciate. Nice coin. DDhDcKw2gMsr2RJSbeB91Nthp1UhSJgVAW
     * github: http://github.com/nsfmc/paperwallet
@@ -49,11 +45,11 @@
 	Array.prototype.map		Public Domain
 	window.Crypto			BSD License
 	window.SecureRandom		BSD License
-	window.EllipticCurve		BSD License
+	window.EllipticCurve	BSD License
 	window.BigInteger		BSD License
 	window.QRCode			MIT License
 	window.Bitcoin			MIT License
-	window.Crypto_scrypt		MIT License
+	window.Crypto_scrypt	MIT License
 	ninja.(*)				MIT License			// lots of code from bitaddress.org
 	parser.setUA			GPLv2 & MIT			// UAParser.js
 
@@ -73,8 +69,6 @@
 	IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 	WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 	SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-	GitHub Repository: https://github.com/cantonbecker/bitcoinpaperwallet
 	-->
 
 	<title>Such Dogecoin. Very Paper.</title>
@@ -6586,7 +6580,7 @@ Bitcoin.Util = {
               <span><a href="?culture=fr" id="culturefr">Français</a></span> -->
               &nbsp;
           	</div>
-			<div id="tagline">Open Source JavaScript Dogecoin Wallet Generator <span>Updated December 13, 2013</span></div>
+			<div id="tagline">Open Source JavaScript Dogecoin Wallet Generator <span>Updated December 26, 2013</span></div>
 			<div id="tagsite">Such Wallet. Many Doge.</div>
             <div id="tagwarning"></div>
 
@@ -6610,7 +6604,7 @@ Bitcoin.Util = {
 		</div><!-- end logoback -->
 
 		<div id="generate">
-			<div id="generatelabelmovemouse"><blink>Wow. So touchigns. Very active. Many pleasing.</blink></div>
+			<div id="generatelabelmovemouse"><blink>Wow. So touchings. Very active. Many pleasing.</blink></div>
 			<p id="generatelabelbitcoinaddress">(For shibe. Much random &amp; sekure dogecoin address.)</p>
 		</div>
 
@@ -6635,7 +6629,7 @@ Bitcoin.Util = {
                         <p style="margin-top: 0;"><strong>Select your wallet design or language here:</strong>
     					<select id="designPicker" onChange="setDesign(this.value);">
                           <option value="default">Standard (English/en)</option>
-                          <option value="holiday">Holiday / Christmas Design (English/en)</option>
+                          <option value="holiday">Holiday / Winter Design (English/en)</option>
                           <option value="chinese">Standard (Chinese/zh)</option>
                           <option value="czech">Standard (Czech/cs)</option>
                           <option value="dutch">Standard (Dutch/nl)</option>
@@ -6659,7 +6653,7 @@ Bitcoin.Util = {
 						  switch(window.location.protocol) {
 							 case 'http:':
 							 case 'https:':
-							   document.write('<span style="color: #990000;">&times; You appear to be running this generator off of a live website, which is not recommended for creating valuable wallets. Instead, use the download link at the bottom of this page to download the ZIP file from GitHub and run this generator offline as a \'local\' HTML file.</span>');
+							   document.write('<span style="color: #990000;">&times; You appear to be running this generator off of a live website, which is not recommended for creating high-value wallets. Instead, use the download link at the bottom of this page to download the ZIP file from GitHub and run this generator offline as a \'local\' HTML file.</span>');
 							   break;
 							 case 'file:':
 							   document.write('<span style="color: #009900;">&#10004; You are running this generator from your own download.</span><br />Tip: Make 100% sure you are offline by trying <a href="http://google.com" target="_blank">google.com</a></span>');
@@ -6678,11 +6672,8 @@ Bitcoin.Util = {
 						  }
 						</script>
                         </li>
-                        <li><strong>?</strong> Are you using a secure operating system guaranteed to be free of spyware and viruses, for example, an <a href="https://bitcoinpaperwallet.com/#purchase" target="_blank">Ubuntu LiveCD</a>?</li>
+                        <li><strong>?</strong> Are you using a secure operating system guaranteed to be free of spyware and viruses, for example, an <a href="https://help.ubuntu.com/community/LiveCD" target="_blank">Ubuntu LiveCD</a>?</li>
                         </ul>
-
-                        <p><a href="https://bitcoinpaperwallet.com/#security" target="_blank">More security tips</a></p>
-
                         </div>
 
 						<span id="instructions2"><b>Step 1: Calibrate Printer</b><br />
@@ -6828,14 +6819,15 @@ Bitcoin.Util = {
 		<div id="footer" class="footer">
 			<div class="authorbtc">
 				<div>
-					<span class="item" id="footerlabeldonations"><b>Support Doge Paper Wallet</b></span>
+					<span class="item" id="footerlabeldonations"><b>Support Dogecoin Paper Wallet</b></span>
                     <span class="item" style="font-size: 11px; font-family: 'Courier New', Courier, monospace;">
-                    <strong>such doge</strong>:&nbsp; DDhDcKw2gMsr2RJSbeB91Nthp1UhSJgVAW<br />
-                    <strong>very fiat</strong>:&nbsp; 12hejef8yqrjrVFvA1nyM9tJGVKAnYYFDf<br /></span>
+                    <strong>such doge</strong>:&nbsp; DRXqHpNV1thETNqJGNM8JdseTv4QNpVzcV<br />
+                    <strong>btc also</strong>:&nbsp; 15eMDKTPGZ7eWiFF7ALJbTcur6DgJnsMZZ<br /></span>
                 </div>
 				<div>
-					<span class="item" id="footerlabeldonations"><b>Bitcoin Donations</b></span>
+					<span class="item" id="footerlabeldonations"><b>Much Inspiration.  Very Thanks.</b></span>
                     <span class="item" style="font-size: 11px; font-family: 'Courier New', Courier, monospace;">
+                    <strong>Original Doge Port</strong>:&nbsp; &nbsp; 12hejef8yqrjrVFvA1nyM9tJGVKAnYYFDf<br />
                     <strong>Bitcoin Paper Wallet</strong>:&nbsp; 1Pjg628vjMLBvADrPHsthtzKiryM2y46DG<br />
                     <strong>bitaddress.org source</strong>: 1NiNja1bUmhSoTXozBRBEtR8LeF9TGbZBN</span>
 					<span class="item" id="footerlabeltranslatedby"></span>
@@ -6861,15 +6853,11 @@ Bitcoin.Util = {
             	<span class="item"><b>Security Details</b></span>
                 <span class="item" style="font-size: 75%;"><a href="https://bitcoinpaperwallet.com/#security" target="_blank">For extra security</a>, do not run this generator directly from the bitcoinpaperwallet.com website.<br />
                 Download the generator and run the HTML as a local file in your browser instead.</span>
-				<span class="item"><a href="https://github.com/nsfmc/paperwallet" target="_blank" id="footerlabelgithub"><strong>Download</strong> (GitHub ZIP file)</a></span>
-
-                <span class="item" id="footerlabeltests" style="font-size: 75%;"><a href="?unittests=1">Run local encode/decode unit tests</a></span>
-
-				<span class="item" id="footerlabelsig" style="font-size: 75%;"><a href="#" onClick="document.getElementById('siginfo').style.display='block'; return(false);">Validate PGP/GPG signature</a></span>
+				<span class="item"><a href="https://github.com/skibumstevo/dogecoinpaperwallet" target="_blank" id="footerlabelgithub"><strong>Download</strong> (GitHub ZIP file)</a></span>
 
 			</div>
 			<div class="copyright">
-				<span id="footerlabelcopyright1">&copy; Copyright 2013 <a href="https://generic.cx/">Marcos Ojeda</a>, <a href="https://bitcoinpaperwallet.com/">Canton Becker</a> and Pointbiz/bitaddress.org</span>
+				<span id="footerlabelcopyright1">&copy; Copyright 2013 <a href="https://github.com/skibumstevo">Skibumstevo, <a href="https://generic.cx/">Marcos Ojeda</a>, <a href="https://bitcoinpaperwallet.com/">Canton Becker</a> and Pointbiz/bitaddress.org</span>
 				<span id="footerlabelcopyright2">JavaScript copyrights are included in the source.</span>
 				<span id="footerlabelnowarranty"><strong>No warranty.</strong></span><br />
 
